@@ -6,7 +6,7 @@ async function bootstrap() {
   // using CORS
   app.enableCors();
   // using process.env to handle port
-  const port = process.env.PORT;
+  const port = process.env.PORT || 443;
   await app.listen(port);
 }
 bootstrap();
