@@ -29,6 +29,7 @@
     "@nestjs/mongoose": "^7.2.4",
     "@nestjs/passport": "^7.1.5",
     "@nestjs/platform-express": "^7.6.15",
+    "@nestjs/serve-static": "^2.1.4",
     "@types/bcrypt": "^3.0.1",
     "@types/passport-jwt": "^3.0.5",
     "bcrypt": "^5.0.1",
@@ -76,7 +77,6 @@
     "collectCoverageFrom": [
       "**/*.(t|j)s"
     ],
-  
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
   }

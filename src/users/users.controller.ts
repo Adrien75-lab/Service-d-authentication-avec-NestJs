@@ -20,7 +20,7 @@ export class UsersController {
     return this.usersService.findAll();
   }
 
-  @UseGuards(AuthGuard())
+  //@UseGuards(AuthGuard())
   @Get(':id')
   findOne(@Param('id') id: string) {
     return this.usersService.findOne(id);
